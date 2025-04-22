@@ -1,0 +1,121 @@
+{
+    "name": "Просмотр цитаты",
+    "start": 1745097085779,
+    "stop": 1745097094777,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки основного экрана",
+            "start": 1745097086726,
+            "stop": 1745097086726,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел our mission",
+            "start": 1745097091950,
+            "stop": 1745097091950,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка элементов экрана our mission",
+            "start": 1745097092346,
+            "stop": 1745097092347,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открыть и закрыть цитату",
+            "start": 1745097093483,
+            "stop": 1745097093483,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "d6e2fe49-d56f-496d-9be6-65e31fb3fc64",
+    "historyId": "d635f9a64d85ca816bb1e12397e340ad",
+    "fullName": "ru.netology.test.OurMissionUnitTest.checkingOpenAndCloseQuote",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.OurMissionUnitTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkingOpenAndCloseQuote"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.OurMissionUnitTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6174)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-49"
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+{
+    "name": "Создание новости в Control Panel",
+    "start": 1745096707184,
+    "stop": 1745096718893,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки основного экрана",
+            "start": 1745096709874,
+            "stop": 1745096709874,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел новостей",
+            "start": 1745096712340,
+            "stop": 1745096712340,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел ControlPanel",
+            "start": 1745096713469,
+            "stop": 1745096713469,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1745096713994,
+            "stop": 1745096713994,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1745096715135,
+            "stop": 1745096715135,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку создания новостей",
+            "start": 1745096716278,
+            "stop": 1745096716278,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Заполнение полей формы при создании новости",
+            "start": 1745096716688,
+            "stop": 1745096716688,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Положение тумблера в положении Active",
+            "start": 1745096716772,
+            "stop": 1745096716772,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку SAVE",
+            "start": 1745096716795,
+            "stop": 1745096716795,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1745096717290,
+            "stop": 1745096717290,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "b200e30e-fc13-4562-b5e3-89beeb578f93",
+    "historyId": "5230c2091eacc9b43a3cdbe009c8211",
+    "fullName": "ru.netology.test.CreatingNewsCPUnitTest.newsCreationControlPanel",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.CreatingNewsCPUnitTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "newsCreationControlPanel"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.CreatingNewsCPUnitTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6156)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-42"
+        }
+    ]
+}

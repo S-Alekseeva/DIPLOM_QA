@@ -1,0 +1,121 @@
+{
+    "name": "Сортировка новостей во вкладке News",
+    "start": 1745094732249,
+    "stop": 1745094739861,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки основного экрана",
+            "start": 1745094732603,
+            "stop": 1745094732603,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел новостей",
+            "start": 1745094737157,
+            "stop": 1745094737157,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка элементов экрана с новостями",
+            "start": 1745094737870,
+            "stop": 1745094737870,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку сортировки новостей",
+            "start": 1745094739218,
+            "stop": 1745094739218,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "a2cc1eba-587c-420f-b776-54ac57796e9e",
+    "historyId": "cd9eb96c9962c2b515032e6e1a23397a",
+    "fullName": "ru.netology.test.NewsUnitTest.sortNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.NewsUnitTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "sortNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.NewsUnitTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6085)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-12"
+        }
+    ]
+}

@@ -1,0 +1,201 @@
+{
+    "name": "Возобновление создания новости в Control Panel",
+    "start": 1745096685390,
+    "stop": 1745096696739,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки основного экрана",
+            "start": 1745096685820,
+            "stop": 1745096685820,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел новостей",
+            "start": 1745096690696,
+            "stop": 1745096690696,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел ControlPanel",
+            "start": 1745096691759,
+            "stop": 1745096691759,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1745096692156,
+            "stop": 1745096692156,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1745096693311,
+            "stop": 1745096693311,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку создания новостей",
+            "start": 1745096694455,
+            "stop": 1745096694455,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку CANCEL",
+            "start": 1745096694878,
+            "stop": 1745096694878,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку CANCEL",
+            "start": 1745096695330,
+            "stop": 1745096695330,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка элементов экрана создания новости",
+            "start": 1745096695645,
+            "stop": 1745096695645,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "370eb6cb-1851-408b-9710-953df9f54697",
+    "historyId": "e1dae7caec23e3d36335373a449e09d2",
+    "fullName": "ru.netology.test.CreatingNewsCPUnitTest.resumingNewsCreationControlPanel",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.CreatingNewsCPUnitTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "resumingNewsCreationControlPanel"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.CreatingNewsCPUnitTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6156)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-45"
+        }
+    ]
+}

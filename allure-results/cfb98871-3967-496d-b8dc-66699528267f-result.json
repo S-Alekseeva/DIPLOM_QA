@@ -1,0 +1,105 @@
+{
+    "name": "Авторизация с пустым полем пароль",
+    "start": 1745092798761,
+    "stop": 1745092804363,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки экрана авторизации",
+            "start": 1745092799165,
+            "stop": 1745092799165,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка элементов экрана авторизации",
+            "start": 1745092802988,
+            "stop": 1745092802988,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Оставить незаполненным поле пароль",
+            "start": 1745092802993,
+            "stop": 1745092802993,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "cfb98871-3967-496d-b8dc-66699528267f",
+    "historyId": "bc003adb9ec8b1b93136eb2fede76fb1",
+    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestEmptyPasswordField",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.AuthorizationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "authorizationTestEmptyPasswordField"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.AuthorizationTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6044)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-4"
+        }
+    ]
+}

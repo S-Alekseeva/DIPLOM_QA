@@ -1,0 +1,121 @@
+{
+    "name": "Выход из личного кабинета",
+    "start": 1745097116360,
+    "stop": 1745097125547,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки основного экрана",
+            "start": 1745097118647,
+            "stop": 1745097118647,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка загрузки основного экрана",
+            "start": 1745097122653,
+            "stop": 1745097122653,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выход из личного кабинета",
+            "start": 1745097124203,
+            "stop": 1745097124203,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку выход из приложения",
+            "start": 1745097124203,
+            "stop": 1745097124203,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "7fdd0fe3-16ca-4263-b8de-5d76c99842d1",
+    "historyId": "a60ec8af78612c5b213ec3b9dde99edd",
+    "fullName": "ru.netology.test.LogOutTest.checkingLogout",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.LogOutTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkingLogout"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.LogOutTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6186)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-50"
+        }
+    ]
+}

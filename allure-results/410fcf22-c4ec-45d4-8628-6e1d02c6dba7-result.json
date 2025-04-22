@@ -1,0 +1,121 @@
+{
+    "name": "Просмотр новости во вкладке News",
+    "start": 1745094712769,
+    "stop": 1745094722528,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки основного экрана",
+            "start": 1745094713674,
+            "stop": 1745094713674,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Переход в раздел новостей",
+            "start": 1745094719289,
+            "stop": 1745094719289,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка элементов экрана с новостями",
+            "start": 1745094720174,
+            "stop": 1745094720174,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открыть и свернуть описание новости",
+            "start": 1745094721531,
+            "stop": 1745094721531,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "410fcf22-c4ec-45d4-8628-6e1d02c6dba7",
+    "historyId": "42065a6e72470adf3c6a1968ad2a48f0",
+    "fullName": "ru.netology.test.NewsUnitTest.checkingOpenAndCloseNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.NewsUnitTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkingOpenAndCloseNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.NewsUnitTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6085)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-11"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "name": "Авторизация с невалидными логином и паролем",
+    "start": 1745092804384,
+    "stop": 1745092811189,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки экрана авторизации",
+            "start": 1745092804622,
+            "stop": 1745092804622,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка элементов экрана авторизации",
+            "start": 1745092808996,
+            "stop": 1745092808996,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод невалидного логина и пароля",
+            "start": 1745092809001,
+            "stop": 1745092809001,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "c6925e3b-41b2-418c-84fe-c6f93b7d5e09",
+    "historyId": "abbc4d927bfd66bef92b96847819b209",
+    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestIncorrectLoginAndPasswordV",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.AuthorizationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "authorizationTestIncorrectLoginAndPasswordV"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.AuthorizationTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6044)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-8"
+        }
+    ]
+}

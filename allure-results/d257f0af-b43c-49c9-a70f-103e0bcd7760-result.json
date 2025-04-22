@@ -1,0 +1,105 @@
+{
+    "name": "Авторизация с невалидным логином и валидным паролем",
+    "start": 1745092745272,
+    "stop": 1745092752190,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Проверка загрузки экрана авторизации",
+            "start": 1745092745696,
+            "stop": 1745092745696,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка элементов экрана авторизации",
+            "start": 1745092749949,
+            "stop": 1745092749949,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод невалидного логина",
+            "start": 1745092749956,
+            "stop": 1745092749956,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "d257f0af-b43c-49c9-a70f-103e0bcd7760",
+    "historyId": "459903c256ed693f2d50ef9c204414b1",
+    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestIncorrectLogin",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.netology.test"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.netology.test.AuthorizationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "authorizationTestIncorrectLogin"
+        },
+        {
+            "name": "suite",
+            "value": "ru.netology.test.AuthorizationTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6044)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "AS_ID",
+            "value": "TC-5"
+        }
+    ]
+}
