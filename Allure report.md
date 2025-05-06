@@ -1,1 +1,1 @@
-![Allure отчет](https://github.com/user-attachments/assets/bc295d1a-c288-4575-a5b3-9dcfc13ac6da)
+![Allure report 06 05 2025](https://github.com/user-attachments/assets/d2731f13-2937-4a44-bacf-82e1a7d336e7)
