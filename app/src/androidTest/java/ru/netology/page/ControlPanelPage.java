@@ -122,6 +122,26 @@ public class ControlPanelPage {
         controlPanelElements.getDescriptionField().perform(replaceText(description));
     }
 
+    public void checkingNewsAfterCreation(String title, String publicationDate, String status,
+                                          String description) {
+        Allure.step("Проверка отображения новости после создания");
+        controlPanelElements.getFirstNews().perform(click());
+        controlPanelElements.getNewsItemTitle().check(matches(withText(title)));
+        controlPanelElements.getPublicationDateFieldTextView().check(matches(withText(publicationDate)));
+        controlPanelElements.getStatusPublishedTextView().check(matches(withText(status)));
+        controlPanelElements.getViewDescriptionNews().check(matches(withText(description)));
+    }
+
+    public void checkingNewsAfterEdit(String title, String publicationDate, String status,
+                                          String description) {
+        Allure.step("Проверка отображения новости после редактирования");
+        controlPanelElements.getFirstNews().perform(click());
+        controlPanelElements.getNewsItemTitle().check(matches(withText(title)));
+        controlPanelElements.getPublicationDateFieldTextView().check(matches(withText(publicationDate)));
+        controlPanelElements.getStatusPublishedTextView().check(matches(withText(status)));
+        controlPanelElements.getViewDescriptionNews().check(matches(withText(description)));
+    }
+
     public void deleteFirstNews() {
         Allure.step("Удалить первую новость");
         controlPanelElements.getDeleteFirstNewsButton().perform(click());

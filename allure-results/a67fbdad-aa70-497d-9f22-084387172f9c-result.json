@@ -1,7 +1,7 @@
 {
-    "name": "Создание новости с пустыми полями в Control Panel",
-    "start": 1745096696752,
-    "stop": 1745096707174,
+    "name": "Возобновление создания новости в Control Panel",
+    "start": 1746543048132,
+    "stop": 1746543065536,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745096700464,
-            "stop": 1745096700464,
+            "start": 1746543051360,
+            "stop": 1746543051360,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Переход в раздел новостей",
-            "start": 1745096702012,
-            "stop": 1745096702012,
+            "start": 1746543054612,
+            "stop": 1746543054612,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Переход в раздел ControlPanel",
-            "start": 1745096703080,
-            "stop": 1745096703080,
+            "start": 1746543057729,
+            "stop": 1746543057729,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096703458,
-            "stop": 1745096703459,
+            "start": 1746543058443,
+            "stop": 1746543058443,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096704606,
-            "stop": 1745096704606,
+            "start": 1746543059593,
+            "stop": 1746543059593,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Нажать на кнопку создания новостей",
-            "start": 1745096705747,
-            "stop": 1745096705747,
+            "start": 1746543060737,
+            "stop": 1746543060737,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -105,9 +105,9 @@
             ]
         },
         {
-            "name": "Заполнение полей формы при создании новости",
-            "start": 1745096706153,
-            "stop": 1745096706153,
+            "name": "Нажать на кнопку CANCEL",
+            "start": 1746543061507,
+            "stop": 1746543061507,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -121,9 +121,9 @@
             ]
         },
         {
-            "name": "Положение тумблера в положении Active",
-            "start": 1745096706221,
-            "stop": 1745096706221,
+            "name": "Нажать на кнопку CANCEL",
+            "start": 1746543063856,
+            "stop": 1746543063856,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -137,9 +137,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку SAVE",
-            "start": 1745096706241,
-            "stop": 1745096706241,
+            "name": "Проверка элементов экрана создания новости",
+            "start": 1746543064424,
+            "stop": 1746543064424,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -157,9 +157,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "c70b8439-3f8a-4bb0-a6de-e7de2181b5fa",
-    "historyId": "16b7bda5507d52053428fc059a5c6b01",
-    "fullName": "ru.netology.test.CreatingNewsCPUnitTest.newsEmptyCreationControlPanel",
+    "uuid": "a67fbdad-aa70-497d-9f22-084387172f9c",
+    "historyId": "e1dae7caec23e3d36335373a449e09d2",
+    "fullName": "ru.netology.test.CreatingNewsCPUnitTest.resumingNewsCreationControlPanel",
     "labels": [
         {
             "name": "package",
@@ -171,7 +171,7 @@
         },
         {
             "name": "testMethod",
-            "value": "newsEmptyCreationControlPanel"
+            "value": "resumingNewsCreationControlPanel"
         },
         {
             "name": "suite",
@@ -183,7 +183,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6156)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1201)"
         },
         {
             "name": "framework",
@@ -195,7 +195,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-43"
+            "value": "TC-45"
         }
     ]
 }

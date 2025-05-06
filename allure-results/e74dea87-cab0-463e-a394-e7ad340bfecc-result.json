@@ -1,7 +1,7 @@
 {
-    "name": "Фильтр новостей по критерию Not active в Control Panel",
-    "start": 1745096548833,
-    "stop": 1745096559123,
+    "name": "Сортировка новостей в Control Panel",
+    "start": 1746542795422,
+    "stop": 1746542811180,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745096549390,
-            "stop": 1745096549390,
+            "start": 1746542798455,
+            "stop": 1746542798455,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Переход в раздел новостей",
-            "start": 1745096553898,
-            "stop": 1745096553898,
+            "start": 1746542802542,
+            "stop": 1746542802542,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Переход в раздел ControlPanel",
-            "start": 1745096554918,
-            "stop": 1745096554918,
+            "start": 1746542805341,
+            "stop": 1746542805341,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096555437,
-            "stop": 1745096555437,
+            "start": 1746542806154,
+            "stop": 1746542806154,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096556573,
-            "stop": 1745096556573,
+            "start": 1746542807295,
+            "stop": 1746542807296,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,41 +89,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку фильтр новостей",
-            "start": 1745096557710,
-            "stop": 1745096557710,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Чекбокс Active",
-            "start": 1745096558065,
-            "stop": 1745096558065,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Нажать на кнопку FILTER",
-            "start": 1745096558364,
-            "stop": 1745096558364,
+            "name": "Нажать на кнопку сортировка новостей",
+            "start": 1746542808428,
+            "stop": 1746542808428,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -141,9 +109,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "54a8bf3c-dd07-4544-973c-3b50b9931d56",
-    "historyId": "c093ea9796a4638eed5e439439a0958c",
-    "fullName": "ru.netology.test.ControlPanelUnitTest.checkingFilterNotActive",
+    "uuid": "e74dea87-cab0-463e-a394-e7ad340bfecc",
+    "historyId": "41711a3d73ce9584eb2b6ca2deab0b9",
+    "fullName": "ru.netology.test.ControlPanelUnitTest.sortNewsControlPanel",
     "labels": [
         {
             "name": "package",
@@ -155,7 +123,7 @@
         },
         {
             "name": "testMethod",
-            "value": "checkingFilterNotActive"
+            "value": "sortNewsControlPanel"
         },
         {
             "name": "suite",
@@ -167,7 +135,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6145)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1156)"
         },
         {
             "name": "framework",
@@ -179,7 +147,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-41"
+            "value": "TC-29"
         }
     ]
 }

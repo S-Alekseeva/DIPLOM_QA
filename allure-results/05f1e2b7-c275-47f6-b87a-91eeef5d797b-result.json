@@ -1,7 +1,7 @@
 {
-    "name": "Выход в главное меню из вкладки About",
-    "start": 1745097039391,
-    "stop": 1745097049317,
+    "name": "Удаление новости в Control Panel",
+    "start": 1746542777743,
+    "stop": 1746542795411,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745097040423,
-            "stop": 1745097040423,
+            "start": 1746542783201,
+            "stop": 1746542783201,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "Переход в раздел about",
-            "start": 1745097045559,
-            "stop": 1745097045559,
+            "name": "Переход в раздел новостей",
+            "start": 1746542784768,
+            "stop": 1746542784768,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Проверка элементов экрана about",
-            "start": 1745097046338,
-            "stop": 1745097046338,
+            "name": "Переход в раздел ControlPanel",
+            "start": 1746542787393,
+            "stop": 1746542787393,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Переход в главное меню",
-            "start": 1745097047436,
-            "stop": 1745097047436,
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1746542788593,
+            "stop": 1746542788593,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -73,9 +73,9 @@
             ]
         },
         {
-            "name": "Проверка элементов экрана about",
-            "start": 1745097047436,
-            "stop": 1745097047436,
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1746542789730,
+            "stop": 1746542789730,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,9 +89,41 @@
             ]
         },
         {
-            "name": "Проверка элементов основного экрана",
-            "start": 1745097048923,
-            "stop": 1745097048923,
+            "name": "Удалить первую новость",
+            "start": 1746542790869,
+            "stop": 1746542790869,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку OK",
+            "start": 1746542791753,
+            "stop": 1746542791753,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1746542793117,
+            "stop": 1746542793117,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -109,9 +141,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "d6fd3f05-72b9-4197-9ad0-a6019570f4a3",
-    "historyId": "d7095b9a746539bc14e7ff8aca662f30",
-    "fullName": "ru.netology.test.AboutUnitTest.checkingExitMainMenu",
+    "uuid": "05f1e2b7-c275-47f6-b87a-91eeef5d797b",
+    "historyId": "d3f0356cb37e57f357f529d2368e3812",
+    "fullName": "ru.netology.test.ControlPanelUnitTest.deleteNewsControlPanel",
     "labels": [
         {
             "name": "package",
@@ -119,15 +151,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.netology.test.AboutUnitTest"
+            "value": "ru.netology.test.ControlPanelUnitTest"
         },
         {
             "name": "testMethod",
-            "value": "checkingExitMainMenu"
+            "value": "deleteNewsControlPanel"
         },
         {
             "name": "suite",
-            "value": "ru.netology.test.AboutUnitTest"
+            "value": "ru.netology.test.ControlPanelUnitTest"
         },
         {
             "name": "host",
@@ -135,7 +167,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6166)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1156)"
         },
         {
             "name": "framework",
@@ -147,7 +179,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-48"
+            "value": "TC-31"
         }
     ]
 }

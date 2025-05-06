@@ -1,7 +1,7 @@
 {
     "name": "Отмена создания новости в Control Panel",
-    "start": 1745096672064,
-    "stop": 1745096685349,
+    "start": 1746543026921,
+    "stop": 1746543048096,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745096673025,
-            "stop": 1745096673025,
+            "start": 1746543032800,
+            "stop": 1746543032800,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Переход в раздел новостей",
-            "start": 1745096678305,
-            "stop": 1745096678305,
+            "start": 1746543034410,
+            "stop": 1746543034410,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Переход в раздел ControlPanel",
-            "start": 1745096679256,
-            "stop": 1745096679256,
+            "start": 1746543037345,
+            "stop": 1746543037345,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096679877,
-            "stop": 1745096679877,
+            "start": 1746543038541,
+            "stop": 1746543038541,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096681059,
-            "stop": 1745096681059,
+            "start": 1746543039683,
+            "stop": 1746543039683,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Нажать на кнопку создания новостей",
-            "start": 1745096682197,
-            "stop": 1745096682197,
+            "start": 1746543040828,
+            "stop": 1746543040828,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -106,8 +106,8 @@
         },
         {
             "name": "Нажать на кнопку CANCEL",
-            "start": 1745096682716,
-            "stop": 1745096682717,
+            "start": 1746543041746,
+            "stop": 1746543041746,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -122,8 +122,8 @@
         },
         {
             "name": "Нажать на кнопку OK",
-            "start": 1745096683231,
-            "stop": 1745096683231,
+            "start": 1746543044074,
+            "stop": 1746543044074,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -138,8 +138,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096683816,
-            "stop": 1745096683816,
+            "start": 1746543045143,
+            "stop": 1746543045143,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -157,7 +157,7 @@
     ],
     "parameters": [
     ],
-    "uuid": "2f84ef41-5dde-4d04-932c-17f1b53c7110",
+    "uuid": "21d25b19-012f-4e8d-b187-ea4646943b35",
     "historyId": "8a2bbfeda86ff504fade95848851bf7a",
     "fullName": "ru.netology.test.CreatingNewsCPUnitTest.cancelNewsCreationControlPanel",
     "labels": [
@@ -183,7 +183,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6156)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1201)"
         },
         {
             "name": "framework",

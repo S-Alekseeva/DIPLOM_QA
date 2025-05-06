@@ -137,6 +137,8 @@ public class ControlPanelUnitTest {
         controlPanelPage.clickToggleSwitchesNotActive();
         controlPanelPage.clickSaveButton();
         controlPanelPage.checkControlPanelScreenLoaded();
+        controlPanelPage.checkingNewsAfterEdit(otherData.title, otherData.publicationDate,
+                otherData.status, otherData.description);
     }
 
     @Test

@@ -1,7 +1,7 @@
 {
-    "name": "Просмотр описания новости в Control Panel",
-    "start": 1745096505837,
-    "stop": 1745096515324,
+    "name": "Успешная авторизация",
+    "start": 1746541340388,
+    "stop": 1746541362925,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -9,105 +9,73 @@
     "statusDetails": null,
     "steps": [
         {
+            "name": "Проверка загрузки экрана авторизации",
+            "start": 1746541343518,
+            "stop": 1746541343518,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Нажать на кнопку выход из приложения",
+            "start": 1746541349993,
+            "stop": 1746541349993,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка элементов экрана авторизации",
+            "start": 1746541352670,
+            "stop": 1746541352670,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ввод валидного логина и пароля",
+            "start": 1746541352707,
+            "stop": 1746541352707,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745096506223,
-            "stop": 1745096506223,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Переход в раздел новостей",
-            "start": 1745096510721,
-            "stop": 1745096510722,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Переход в раздел ControlPanel",
-            "start": 1745096511769,
-            "stop": 1745096511769,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096512170,
-            "stop": 1745096512170,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096513316,
-            "stop": 1745096513316,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Просмотр описания новости",
-            "start": 1745096514463,
-            "stop": 1745096514463,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Выбор первой новости",
-            "start": 1745096514463,
-            "stop": 1745096514463,
+            "start": 1746541359731,
+            "stop": 1746541359731,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -125,9 +93,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "bc66fc1d-265d-4acb-99a1-82bab5a21a7d",
-    "historyId": "18cfffe468234e022ad68193edd11199",
-    "fullName": "ru.netology.test.ControlPanelUnitTest.checkingViewNewsControlPanel",
+    "uuid": "35f04a0e-b940-42ac-b158-f28d5a1e7003",
+    "historyId": "1858c316a9077db6200d003168ca77e",
+    "fullName": "ru.netology.test.AuthorizationTest.successfulAuthorizationTest",
     "labels": [
         {
             "name": "package",
@@ -135,15 +103,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.netology.test.ControlPanelUnitTest"
+            "value": "ru.netology.test.AuthorizationTest"
         },
         {
             "name": "testMethod",
-            "value": "checkingViewNewsControlPanel"
+            "value": "successfulAuthorizationTest"
         },
         {
             "name": "suite",
-            "value": "ru.netology.test.ControlPanelUnitTest"
+            "value": "ru.netology.test.AuthorizationTest"
         },
         {
             "name": "host",
@@ -151,7 +119,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6145)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1006)"
         },
         {
             "name": "framework",
@@ -163,7 +131,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-30"
+            "value": "TC-1"
         }
     ]
 }

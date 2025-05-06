@@ -56,6 +56,12 @@ public class ControlPanelScreenElements {
     private final ViewInteraction publicationDateField = onView(
             withId(R.id.news_item_publish_date_text_input_edit_text));
 
+    private final ViewInteraction publicationDateFieldTextView = onView(
+            withIndex(withId(R.id.news_item_publication_date_text_view), 0));
+
+    private final ViewInteraction statusPublishedTextView = onView(
+            withIndex(withId(R.id.news_item_published_text_view), 0));
+
     private final ViewInteraction timeField = onView(
             withId(R.id.news_item_publish_time_text_input_edit_text));
 
@@ -73,6 +79,7 @@ public class ControlPanelScreenElements {
 
     private final ViewInteraction editNewsButton = onView(
             withIndex(withId(R.id.edit_news_item_image_view), 0));
+
 
     public ViewInteraction getControlPanelScreenName() {
         return controlPanelScreenName;
@@ -156,5 +163,15 @@ public class ControlPanelScreenElements {
 
     public ViewInteraction getEditNewsButton() {
         return editNewsButton;
+    }
+
+    public ViewInteraction getPublicationDateFieldTextView() {
+
+        return publicationDateFieldTextView;
+    }
+
+    public ViewInteraction getStatusPublishedTextView() {
+
+        return statusPublishedTextView;
     }
 }

@@ -1,7 +1,7 @@
 {
-    "name": "Успешная авторизация",
-    "start": 1745092776716,
-    "stop": 1745092789154,
+    "name": "Авторизация с пустым полем пароль",
+    "start": 1746541384967,
+    "stop": 1746541396989,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,24 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки экрана авторизации",
-            "start": 1745092777094,
-            "stop": 1745092777094,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Нажать на кнопку выход из приложения",
-            "start": 1745092784006,
-            "stop": 1745092784006,
+            "start": 1746541389650,
+            "stop": 1746541389650,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +26,8 @@
         },
         {
             "name": "Проверка элементов экрана авторизации",
-            "start": 1745092784674,
-            "stop": 1745092784674,
+            "start": 1746541391066,
+            "stop": 1746541391066,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,25 +41,9 @@
             ]
         },
         {
-            "name": "Ввод валидного логина и пароля",
-            "start": 1745092784679,
-            "stop": 1745092784679,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Проверка загрузки основного экрана",
-            "start": 1745092786647,
-            "stop": 1745092786647,
+            "name": "Оставить незаполненным поле пароль",
+            "start": 1746541391074,
+            "stop": 1746541391075,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -93,9 +61,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "7bbbc7d2-fc87-4e20-b67d-aabb6b1af8b2",
-    "historyId": "1858c316a9077db6200d003168ca77e",
-    "fullName": "ru.netology.test.AuthorizationTest.successfulAuthorizationTest",
+    "uuid": "39f8f008-fe3a-4ff9-9106-53a5f736eeb5",
+    "historyId": "bc003adb9ec8b1b93136eb2fede76fb1",
+    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestEmptyPasswordField",
     "labels": [
         {
             "name": "package",
@@ -107,7 +75,7 @@
         },
         {
             "name": "testMethod",
-            "value": "successfulAuthorizationTest"
+            "value": "authorizationTestEmptyPasswordField"
         },
         {
             "name": "suite",
@@ -119,7 +87,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6044)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1006)"
         },
         {
             "name": "framework",
@@ -131,7 +99,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-1"
+            "value": "TC-4"
         }
     ]
 }

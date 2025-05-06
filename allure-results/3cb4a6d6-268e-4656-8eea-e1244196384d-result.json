@@ -1,7 +1,7 @@
 {
     "name": "Редактирование новости в Control Panel",
-    "start": 1745096537314,
-    "stop": 1745096548823,
+    "start": 1746542931073,
+    "stop": 1746542951370,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745096537700,
-            "stop": 1745096537701,
+            "start": 1746542936678,
+            "stop": 1746542936678,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Переход в раздел новостей",
-            "start": 1745096542555,
-            "stop": 1745096542555,
+            "start": 1746542938372,
+            "stop": 1746542938372,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Переход в раздел ControlPanel",
-            "start": 1745096543619,
-            "stop": 1745096543620,
+            "start": 1746542941397,
+            "stop": 1746542941397,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096544001,
-            "stop": 1745096544001,
+            "start": 1746542942617,
+            "stop": 1746542942617,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096545142,
-            "stop": 1745096545142,
+            "start": 1746542943764,
+            "stop": 1746542943764,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Нажать на кнопку редактирования новостей",
-            "start": 1745096546279,
-            "stop": 1745096546279,
+            "start": 1746542944909,
+            "stop": 1746542944909,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -106,8 +106,8 @@
         },
         {
             "name": "Заполнение полей формы при редактировании новости",
-            "start": 1745096546673,
-            "stop": 1745096546673,
+            "start": 1746542945731,
+            "stop": 1746542945745,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -122,8 +122,8 @@
         },
         {
             "name": "Положение тумблера в положении Not Active",
-            "start": 1745096546748,
-            "stop": 1745096546748,
+            "start": 1746542946269,
+            "stop": 1746542946269,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -138,8 +138,8 @@
         },
         {
             "name": "Нажать на кнопку SAVE",
-            "start": 1745096546784,
-            "stop": 1745096546784,
+            "start": 1746542946450,
+            "stop": 1746542946450,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -154,8 +154,24 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096547303,
-            "stop": 1745096547304,
+            "start": 1746542947566,
+            "stop": 1746542947566,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка отображения новости после редактирования",
+            "start": 1746542948722,
+            "stop": 1746542948722,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -173,7 +189,7 @@
     ],
     "parameters": [
     ],
-    "uuid": "9e538275-6148-41ae-be6e-c90362fc5284",
+    "uuid": "3cb4a6d6-268e-4656-8eea-e1244196384d",
     "historyId": "c7f0120efbda504f7834b34f58ee42b5",
     "fullName": "ru.netology.test.ControlPanelUnitTest.checkingEditNews",
     "labels": [
@@ -199,7 +215,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6145)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1166)"
         },
         {
             "name": "framework",

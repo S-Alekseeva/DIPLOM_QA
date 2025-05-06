@@ -1,7 +1,7 @@
 {
-    "name": "Авторизация с валидным логином и невалидным паролем",
-    "start": 1745092719594,
-    "stop": 1745092745236,
+    "name": "Авторизация с пустыми полями логин и пароль",
+    "start": 1746541290136,
+    "stop": 1746541299070,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,24 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки экрана авторизации",
-            "start": 1745092725113,
-            "stop": 1745092725114,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Нажать на кнопку выход из приложения",
-            "start": 1745092735054,
-            "stop": 1745092735054,
+            "start": 1746541294649,
+            "stop": 1746541294650,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +26,8 @@
         },
         {
             "name": "Проверка элементов экрана авторизации",
-            "start": 1745092737056,
-            "stop": 1745092737057,
+            "start": 1746541296556,
+            "stop": 1746541296556,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +41,9 @@
             ]
         },
         {
-            "name": "Ввод невалидного пароля",
-            "start": 1745092737070,
-            "stop": 1745092737070,
+            "name": "Оставить незаполненными поля логин и пароль",
+            "start": 1746541296561,
+            "stop": 1746541296561,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -77,9 +61,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "ba37735c-b37a-4d8f-931b-cacac5e2419c",
-    "historyId": "c2f2dbbad67505a7f2481980b3140d04",
-    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestIncorrectPassword",
+    "uuid": "4b571f75-197c-48e9-b136-faafbbcf3f71",
+    "historyId": "ae06b337fa97434f155972c56fcab416",
+    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestEmptyFields",
     "labels": [
         {
             "name": "package",
@@ -91,7 +75,7 @@
         },
         {
             "name": "testMethod",
-            "value": "authorizationTestIncorrectPassword"
+            "value": "authorizationTestEmptyFields"
         },
         {
             "name": "suite",
@@ -103,7 +87,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6044)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1006)"
         },
         {
             "name": "framework",
@@ -115,7 +99,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-6"
+            "value": "TC-2"
         }
     ]
 }

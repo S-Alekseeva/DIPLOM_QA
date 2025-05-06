@@ -70,6 +70,8 @@ public class CreatingNewsCPUnitTest {
         controlPanelPage.clickToggleSwitchesActive();
         controlPanelPage.clickSaveButton();
         controlPanelPage.checkControlPanelScreenLoaded();
+        controlPanelPage.checkingNewsAfterCreation(otherData.title3, otherData.publicationDate3,
+                otherData.status3, otherData.description3);
     }
 
     @Test

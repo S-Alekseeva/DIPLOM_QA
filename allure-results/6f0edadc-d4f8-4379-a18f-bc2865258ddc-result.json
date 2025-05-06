@@ -1,7 +1,7 @@
 {
-    "name": "Возобновление создания новости в Control Panel",
-    "start": 1745096685390,
-    "stop": 1745096696739,
+    "name": "Отмена удаления новости в Control Panel",
+    "start": 1746542727289,
+    "stop": 1746542743108,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745096685820,
-            "stop": 1745096685820,
+            "start": 1746542732213,
+            "stop": 1746542732214,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Переход в раздел новостей",
-            "start": 1745096690696,
-            "stop": 1745096690696,
+            "start": 1746542733834,
+            "stop": 1746542733834,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Переход в раздел ControlPanel",
-            "start": 1745096691759,
-            "stop": 1745096691759,
+            "start": 1746542736623,
+            "stop": 1746542736623,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096692156,
-            "stop": 1745096692156,
+            "start": 1746542737852,
+            "stop": 1746542737852,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096693311,
-            "stop": 1745096693311,
+            "start": 1746542739006,
+            "stop": 1746542739007,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,9 +89,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку создания новостей",
-            "start": 1745096694455,
-            "stop": 1745096694455,
+            "name": "Удалить первую новость",
+            "start": 1746542740150,
+            "stop": 1746542740151,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -105,41 +105,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку CANCEL",
-            "start": 1745096694878,
-            "stop": 1745096694878,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Нажать на кнопку CANCEL",
-            "start": 1745096695330,
-            "stop": 1745096695330,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Проверка элементов экрана создания новости",
-            "start": 1745096695645,
-            "stop": 1745096695645,
+            "name": "Нажать на кнопку CANCEL при удалении новости",
+            "start": 1746542741112,
+            "stop": 1746542741112,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -157,9 +125,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "370eb6cb-1851-408b-9710-953df9f54697",
-    "historyId": "e1dae7caec23e3d36335373a449e09d2",
-    "fullName": "ru.netology.test.CreatingNewsCPUnitTest.resumingNewsCreationControlPanel",
+    "uuid": "6f0edadc-d4f8-4379-a18f-bc2865258ddc",
+    "historyId": "a6463c5893b5a901b2aace52520ee349",
+    "fullName": "ru.netology.test.ControlPanelUnitTest.cancelDeleteNewsControlPanel",
     "labels": [
         {
             "name": "package",
@@ -167,15 +135,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.netology.test.CreatingNewsCPUnitTest"
+            "value": "ru.netology.test.ControlPanelUnitTest"
         },
         {
             "name": "testMethod",
-            "value": "resumingNewsCreationControlPanel"
+            "value": "cancelDeleteNewsControlPanel"
         },
         {
             "name": "suite",
-            "value": "ru.netology.test.CreatingNewsCPUnitTest"
+            "value": "ru.netology.test.ControlPanelUnitTest"
         },
         {
             "name": "host",
@@ -183,7 +151,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6156)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1156)"
         },
         {
             "name": "framework",
@@ -195,7 +163,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-45"
+            "value": "TC-32"
         }
     ]
 }

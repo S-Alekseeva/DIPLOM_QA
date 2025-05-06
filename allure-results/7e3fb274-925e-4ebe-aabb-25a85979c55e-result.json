@@ -1,7 +1,7 @@
 {
-    "name": "Возобновление редактирования новости в Control Panel",
-    "start": 1745096470662,
-    "stop": 1745096482835,
+    "name": "Отмена редактирования новости в Control Panel",
+    "start": 1746542743118,
+    "stop": 1746542763331,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745096471556,
-            "stop": 1745096471556,
+            "start": 1746542748178,
+            "stop": 1746542748179,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Переход в раздел новостей",
-            "start": 1745096476734,
-            "stop": 1745096476735,
+            "start": 1746542749734,
+            "stop": 1746542749734,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Переход в раздел ControlPanel",
-            "start": 1745096477932,
-            "stop": 1745096477932,
+            "start": 1746542752881,
+            "stop": 1746542752881,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096478565,
-            "stop": 1745096478565,
+            "start": 1746542753930,
+            "stop": 1746542753930,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096479715,
-            "stop": 1745096479715,
+            "start": 1746542755076,
+            "stop": 1746542755076,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -90,8 +90,8 @@
         },
         {
             "name": "Нажать на кнопку редактирования новостей",
-            "start": 1745096480859,
-            "stop": 1745096480859,
+            "start": 1746542756221,
+            "stop": 1746542756221,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -105,9 +105,9 @@
             ]
         },
         {
-            "name": "Проверка элементов экрана с новостями",
-            "start": 1745096481402,
-            "stop": 1745096481402,
+            "name": "Заполнение полей формы при редактировании новости",
+            "start": 1746542756893,
+            "stop": 1746542756893,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -122,8 +122,8 @@
         },
         {
             "name": "Положение тумблера в положении Active",
-            "start": 1745096481413,
-            "stop": 1745096481413,
+            "start": 1746542757453,
+            "stop": 1746542757453,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -138,8 +138,8 @@
         },
         {
             "name": "Нажать на кнопку CANCEL",
-            "start": 1745096481419,
-            "stop": 1745096481419,
+            "start": 1746542757625,
+            "stop": 1746542757625,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -153,9 +153,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку CANCEL",
-            "start": 1745096482015,
-            "stop": 1745096482015,
+            "name": "Нажать на кнопку OK",
+            "start": 1746542760027,
+            "stop": 1746542760027,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -169,9 +169,9 @@
             ]
         },
         {
-            "name": "Проверка элементов экрана с новостями",
-            "start": 1745096482383,
-            "stop": 1745096482383,
+            "name": "Проверка загрузки страницы Control panel",
+            "start": 1746542760896,
+            "stop": 1746542760896,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -189,9 +189,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "085dd7b6-7561-4ba1-8925-e2f1775b210e",
-    "historyId": "c134eb4c4b2b44efd4ae72091eda6e22",
-    "fullName": "ru.netology.test.ControlPanelUnitTest.resumingEditNews",
+    "uuid": "7e3fb274-925e-4ebe-aabb-25a85979c55e",
+    "historyId": "d3b515d421f5954588c56f18042053e5",
+    "fullName": "ru.netology.test.ControlPanelUnitTest.checkingCancelEditNews",
     "labels": [
         {
             "name": "package",
@@ -203,7 +203,7 @@
         },
         {
             "name": "testMethod",
-            "value": "resumingEditNews"
+            "value": "checkingCancelEditNews"
         },
         {
             "name": "suite",
@@ -215,7 +215,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6145)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1156)"
         },
         {
             "name": "framework",
@@ -227,7 +227,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-35"
+            "value": "TC-34"
         }
     ]
 }

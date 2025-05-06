@@ -1,7 +1,7 @@
 {
-    "name": "Просмотр цитаты",
-    "start": 1745097085779,
-    "stop": 1745097094777,
+    "name": "Авторизация с пустым полем логин",
+    "start": 1746541362934,
+    "stop": 1746541384958,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -9,9 +9,9 @@
     "statusDetails": null,
     "steps": [
         {
-            "name": "Проверка загрузки основного экрана",
-            "start": 1745097086726,
-            "stop": 1745097086726,
+            "name": "Проверка загрузки экрана авторизации",
+            "start": 1746541368094,
+            "stop": 1746541368094,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "Переход в раздел our mission",
-            "start": 1745097091950,
-            "stop": 1745097091950,
+            "name": "Нажать на кнопку выход из приложения",
+            "start": 1746541375924,
+            "stop": 1746541375924,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Проверка элементов экрана our mission",
-            "start": 1745097092346,
-            "stop": 1745097092347,
+            "name": "Проверка элементов экрана авторизации",
+            "start": 1746541378314,
+            "stop": 1746541378314,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Открыть и закрыть цитату",
-            "start": 1745097093483,
-            "stop": 1745097093483,
+            "name": "Оставить незаполненным поле логин",
+            "start": 1746541378320,
+            "stop": 1746541378320,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -77,9 +77,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "d6e2fe49-d56f-496d-9be6-65e31fb3fc64",
-    "historyId": "d635f9a64d85ca816bb1e12397e340ad",
-    "fullName": "ru.netology.test.OurMissionUnitTest.checkingOpenAndCloseQuote",
+    "uuid": "d964c430-cffe-4ff0-8c3d-6de818db6b28",
+    "historyId": "40942f2a8ddc7374b81cb878968bada3",
+    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestEmptyLoginField",
     "labels": [
         {
             "name": "package",
@@ -87,15 +87,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.netology.test.OurMissionUnitTest"
+            "value": "ru.netology.test.AuthorizationTest"
         },
         {
             "name": "testMethod",
-            "value": "checkingOpenAndCloseQuote"
+            "value": "authorizationTestEmptyLoginField"
         },
         {
             "name": "suite",
-            "value": "ru.netology.test.OurMissionUnitTest"
+            "value": "ru.netology.test.AuthorizationTest"
         },
         {
             "name": "host",
@@ -103,7 +103,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6174)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1006)"
         },
         {
             "name": "framework",
@@ -115,7 +115,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-49"
+            "value": "TC-3"
         }
     ]
 }

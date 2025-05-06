@@ -1,7 +1,7 @@
 {
     "name": "Выход из личного кабинета",
-    "start": 1745097116360,
-    "stop": 1745097125547,
+    "start": 1746543173004,
+    "stop": 1746543187548,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745097118647,
-            "stop": 1745097118647,
+            "start": 1746543175150,
+            "stop": 1746543175150,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745097122653,
-            "stop": 1745097122653,
+            "start": 1746543179913,
+            "stop": 1746543179913,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Выход из личного кабинета",
-            "start": 1745097124203,
-            "stop": 1745097124203,
+            "start": 1746543181465,
+            "stop": 1746543181465,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Нажать на кнопку выход из приложения",
-            "start": 1745097124203,
-            "stop": 1745097124203,
+            "start": 1746543181465,
+            "stop": 1746543181465,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -77,7 +77,7 @@
     ],
     "parameters": [
     ],
-    "uuid": "7fdd0fe3-16ca-4263-b8de-5d76c99842d1",
+    "uuid": "cde8046c-1302-4ac8-b435-6fb69b46e2fb",
     "historyId": "a60ec8af78612c5b213ec3b9dde99edd",
     "fullName": "ru.netology.test.LogOutTest.checkingLogout",
     "labels": [
@@ -103,7 +103,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6186)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1230)"
         },
         {
             "name": "framework",

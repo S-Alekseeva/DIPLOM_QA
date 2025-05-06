@@ -1,7 +1,7 @@
 {
-    "name": "Отмена редактирования новости в Control Panel",
-    "start": 1745096493585,
-    "stop": 1745096505739,
+    "name": "Создание новости с пустыми полями в Control Panel",
+    "start": 1746543065546,
+    "stop": 1746543083014,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745096494038,
-            "stop": 1745096494038,
+            "start": 1746543068059,
+            "stop": 1746543068059,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Переход в раздел новостей",
-            "start": 1745096498811,
-            "stop": 1745096498811,
+            "start": 1746543072085,
+            "stop": 1746543072085,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -42,8 +42,8 @@
         },
         {
             "name": "Переход в раздел ControlPanel",
-            "start": 1745096499964,
-            "stop": 1745096499964,
+            "start": 1746543074774,
+            "stop": 1746543074774,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -58,8 +58,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096500385,
-            "stop": 1745096500385,
+            "start": 1746543075989,
+            "stop": 1746543075989,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -74,8 +74,8 @@
         },
         {
             "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096501524,
-            "stop": 1745096501524,
+            "start": 1746543077131,
+            "stop": 1746543077131,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -89,9 +89,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку редактирования новостей",
-            "start": 1745096502664,
-            "stop": 1745096502664,
+            "name": "Нажать на кнопку создания новостей",
+            "start": 1746543078268,
+            "stop": 1746543078268,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -105,9 +105,9 @@
             ]
         },
         {
-            "name": "Заполнение полей формы при редактировании новости",
-            "start": 1745096503101,
-            "stop": 1745096503101,
+            "name": "Заполнение полей формы при создании новости",
+            "start": 1746543078804,
+            "stop": 1746543078804,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -122,8 +122,8 @@
         },
         {
             "name": "Положение тумблера в положении Active",
-            "start": 1745096503191,
-            "stop": 1745096503191,
+            "start": 1746543079137,
+            "stop": 1746543079137,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -137,41 +137,9 @@
             ]
         },
         {
-            "name": "Нажать на кнопку CANCEL",
-            "start": 1745096503240,
-            "stop": 1745096503240,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Нажать на кнопку OK",
-            "start": 1745096503735,
-            "stop": 1745096503735,
-            "stage": "finished",
-            "description": null,
-            "descriptionHtml": null,
-            "status": "passed",
-            "statusDetails": null,
-            "steps": [
-            ],
-            "attachments": [
-            ],
-            "parameters": [
-            ]
-        },
-        {
-            "name": "Проверка загрузки страницы Control panel",
-            "start": 1745096504160,
-            "stop": 1745096504160,
+            "name": "Нажать на кнопку SAVE",
+            "start": 1746543079246,
+            "stop": 1746543079246,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -189,9 +157,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "b8f5e0ac-86fa-476a-a69d-922eeaf4928a",
-    "historyId": "d3b515d421f5954588c56f18042053e5",
-    "fullName": "ru.netology.test.ControlPanelUnitTest.checkingCancelEditNews",
+    "uuid": "fe4f5eeb-3202-44c6-8d95-aa6ae7e0b9ae",
+    "historyId": "16b7bda5507d52053428fc059a5c6b01",
+    "fullName": "ru.netology.test.CreatingNewsCPUnitTest.newsEmptyCreationControlPanel",
     "labels": [
         {
             "name": "package",
@@ -199,15 +167,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.netology.test.ControlPanelUnitTest"
+            "value": "ru.netology.test.CreatingNewsCPUnitTest"
         },
         {
             "name": "testMethod",
-            "value": "checkingCancelEditNews"
+            "value": "newsEmptyCreationControlPanel"
         },
         {
             "name": "suite",
-            "value": "ru.netology.test.ControlPanelUnitTest"
+            "value": "ru.netology.test.CreatingNewsCPUnitTest"
         },
         {
             "name": "host",
@@ -215,7 +183,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6145)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1201)"
         },
         {
             "name": "framework",
@@ -227,7 +195,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-34"
+            "value": "TC-43"
         }
     ]
 }

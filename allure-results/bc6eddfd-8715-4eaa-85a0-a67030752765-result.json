@@ -1,7 +1,7 @@
 {
-    "name": "Авторизация с пустым полем пароль",
-    "start": 1745092798761,
-    "stop": 1745092804363,
+    "name": "Просмотр новости во вкладке News",
+    "start": 1746542534253,
+    "stop": 1746542548233,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -9,9 +9,9 @@
     "statusDetails": null,
     "steps": [
         {
-            "name": "Проверка загрузки экрана авторизации",
-            "start": 1745092799165,
-            "stop": 1745092799165,
+            "name": "Проверка загрузки основного экрана",
+            "start": 1746542537583,
+            "stop": 1746542537583,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "Проверка элементов экрана авторизации",
-            "start": 1745092802988,
-            "stop": 1745092802988,
+            "name": "Переход в раздел новостей",
+            "start": 1746542541146,
+            "stop": 1746542541146,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,25 @@
             ]
         },
         {
-            "name": "Оставить незаполненным поле пароль",
-            "start": 1745092802993,
-            "stop": 1745092802993,
+            "name": "Проверка элементов экрана с новостями",
+            "start": 1746542544180,
+            "stop": 1746542544180,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Открыть и свернуть описание новости",
+            "start": 1746542545533,
+            "stop": 1746542545533,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -61,9 +77,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "cfb98871-3967-496d-b8dc-66699528267f",
-    "historyId": "bc003adb9ec8b1b93136eb2fede76fb1",
-    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestEmptyPasswordField",
+    "uuid": "bc6eddfd-8715-4eaa-85a0-a67030752765",
+    "historyId": "42065a6e72470adf3c6a1968ad2a48f0",
+    "fullName": "ru.netology.test.NewsUnitTest.checkingOpenAndCloseNews",
     "labels": [
         {
             "name": "package",
@@ -71,15 +87,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.netology.test.AuthorizationTest"
+            "value": "ru.netology.test.NewsUnitTest"
         },
         {
             "name": "testMethod",
-            "value": "authorizationTestEmptyPasswordField"
+            "value": "checkingOpenAndCloseNews"
         },
         {
             "name": "suite",
-            "value": "ru.netology.test.AuthorizationTest"
+            "value": "ru.netology.test.NewsUnitTest"
         },
         {
             "name": "host",
@@ -87,7 +103,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6044)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1145)"
         },
         {
             "name": "framework",
@@ -99,7 +115,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-4"
+            "value": "TC-11"
         }
     ]
 }

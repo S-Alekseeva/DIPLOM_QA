@@ -1,7 +1,7 @@
 {
-    "name": "Авторизация с невалидными логином и паролем",
-    "start": 1745092804384,
-    "stop": 1745092811189,
+    "name": "Авторизация с невалидным логином и валидным паролем",
+    "start": 1746541275759,
+    "stop": 1746541290102,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки экрана авторизации",
-            "start": 1745092804622,
-            "stop": 1745092804622,
+            "start": 1746541277894,
+            "stop": 1746541277894,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -26,8 +26,8 @@
         },
         {
             "name": "Проверка элементов экрана авторизации",
-            "start": 1745092808996,
-            "stop": 1745092808996,
+            "start": 1746541281488,
+            "stop": 1746541281488,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Ввод невалидного логина и пароля",
-            "start": 1745092809001,
-            "stop": 1745092809001,
+            "name": "Ввод невалидного логина",
+            "start": 1746541281497,
+            "stop": 1746541281497,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -61,9 +61,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "c6925e3b-41b2-418c-84fe-c6f93b7d5e09",
-    "historyId": "abbc4d927bfd66bef92b96847819b209",
-    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestIncorrectLoginAndPasswordV",
+    "uuid": "adb2f1be-41d2-44c9-ab24-5fb9bb0bc616",
+    "historyId": "459903c256ed693f2d50ef9c204414b1",
+    "fullName": "ru.netology.test.AuthorizationTest.authorizationTestIncorrectLogin",
     "labels": [
         {
             "name": "package",
@@ -75,7 +75,7 @@
         },
         {
             "name": "testMethod",
-            "value": "authorizationTestIncorrectLoginAndPasswordV"
+            "value": "authorizationTestIncorrectLogin"
         },
         {
             "name": "suite",
@@ -87,7 +87,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6044)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1006)"
         },
         {
             "name": "framework",
@@ -99,7 +99,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-8"
+            "value": "TC-5"
         }
     ]
 }

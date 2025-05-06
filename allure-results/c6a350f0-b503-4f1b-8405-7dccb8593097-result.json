@@ -1,7 +1,7 @@
 {
-    "name": "Просмотр новости во вкладке News",
-    "start": 1745094712769,
-    "stop": 1745094722528,
+    "name": "Просмотр цитаты",
+    "start": 1746543149111,
+    "stop": 1746543163540,
     "stage": "finished",
     "description": null,
     "descriptionHtml": null,
@@ -10,8 +10,8 @@
     "steps": [
         {
             "name": "Проверка загрузки основного экрана",
-            "start": 1745094713674,
-            "stop": 1745094713674,
+            "start": 1746543154672,
+            "stop": 1746543154672,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "Переход в раздел новостей",
-            "start": 1745094719289,
-            "stop": 1745094719289,
+            "name": "Переход в раздел our mission",
+            "start": 1746543156238,
+            "stop": 1746543156239,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -41,9 +41,9 @@
             ]
         },
         {
-            "name": "Проверка элементов экрана с новостями",
-            "start": 1745094720174,
-            "stop": 1745094720174,
+            "name": "Проверка элементов экрана our mission",
+            "start": 1746543156976,
+            "stop": 1746543156976,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -57,9 +57,9 @@
             ]
         },
         {
-            "name": "Открыть и свернуть описание новости",
-            "start": 1745094721531,
-            "stop": 1745094721531,
+            "name": "Открыть и закрыть цитату",
+            "start": 1746543158113,
+            "stop": 1746543158113,
             "stage": "finished",
             "description": null,
             "descriptionHtml": null,
@@ -77,9 +77,9 @@
     ],
     "parameters": [
     ],
-    "uuid": "410fcf22-c4ec-45d4-8628-6e1d02c6dba7",
-    "historyId": "42065a6e72470adf3c6a1968ad2a48f0",
-    "fullName": "ru.netology.test.NewsUnitTest.checkingOpenAndCloseNews",
+    "uuid": "c6a350f0-b503-4f1b-8405-7dccb8593097",
+    "historyId": "d635f9a64d85ca816bb1e12397e340ad",
+    "fullName": "ru.netology.test.OurMissionUnitTest.checkingOpenAndCloseQuote",
     "labels": [
         {
             "name": "package",
@@ -87,15 +87,15 @@
         },
         {
             "name": "testClass",
-            "value": "ru.netology.test.NewsUnitTest"
+            "value": "ru.netology.test.OurMissionUnitTest"
         },
         {
             "name": "testMethod",
-            "value": "checkingOpenAndCloseNews"
+            "value": "checkingOpenAndCloseQuote"
         },
         {
             "name": "suite",
-            "value": "ru.netology.test.NewsUnitTest"
+            "value": "ru.netology.test.OurMissionUnitTest"
         },
         {
             "name": "host",
@@ -103,7 +103,7 @@
         },
         {
             "name": "thread",
-            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(6085)"
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(1221)"
         },
         {
             "name": "framework",
@@ -115,7 +115,7 @@
         },
         {
             "name": "AS_ID",
-            "value": "TC-11"
+            "value": "TC-49"
         }
     ]
 }
